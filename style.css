@@ -58,6 +58,7 @@ body {
   font-size: 1.4em;
   padding: 10px;
   border-radius: 20px;
+  opacity: 0.8;
 }
 .new {
   top: 5%;
@@ -69,4 +70,14 @@ body {
 }
 .hold {
   top: 75%;
+}
+.dice {
+  width: 150px;
+  height: auto;
+  top: 30%;
+  left: 42.6%;
+  opacity: 1;
+}
+.hidden {
+  display: none;
 }
