@@ -70,6 +70,9 @@ body {
   border-radius: 20px;
   opacity: 0.8;
 }
+.btn:active {
+  transform: translateY(4px);
+}
 .new {
   top: 5%;
   left: 42%;
@@ -82,11 +85,12 @@ body {
   top: 75%;
 }
 .dice {
+  position: absolute;
+  border-radius: 20px;
   width: 150px;
   height: auto;
   top: 30%;
   left: 42.6%;
-  opacity: 1;
 }
 
 /* Styles to be dynamicaly implemented by javascript */
