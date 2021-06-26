@@ -9,21 +9,27 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: "Nunito", sans-serif;
 }
 .container {
-  background-color: rgb(251, 226, 226);
-  border-radius: 9px;
   width: 60%;
   height: 70vh;
   display: flex;
   position: relative;
 }
 .player {
+  background-color: rgb(251, 226, 226);
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+.player-0 {
+  border-radius: 12px 0 0 12px;
+}
+.player-1 {
+  border-radius: 0 12px 12px 0;
 }
 .store {
   display: flex;
@@ -31,6 +37,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-basis: 30%;
+}
+.store h1 {
+  font-size: 50px;
+  font-weight: bolder;
 }
 .score {
   font-size: 80px;
@@ -47,7 +57,7 @@ body {
   justify-content: space-around;
 }
 .current-score h4 {
-  font-size: 30px;
+  font-size: 20px;
 }
 .current-score h5 {
   font-size: 60px;
@@ -78,6 +88,15 @@ body {
   left: 42.6%;
   opacity: 1;
 }
+
+/* Styles to be dynamicaly implemented by javascript */
+.opacity {
+  opacity: 0.4;
+}
 .hidden {
   display: none;
+}
+.winner {
+  color: #c7365f;
+  background: rgb(47, 47, 47);
 }
