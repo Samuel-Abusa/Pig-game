@@ -63,6 +63,7 @@ hold.addEventListener("click", function () {
     if (score[activePlayer] >= 100) {
       play = false;
       document.querySelector(`.player-${activePlayer}`).classList.add("winner");
+      dice.classList.add("hidden");
     } else {
       switchPlayer();
     }

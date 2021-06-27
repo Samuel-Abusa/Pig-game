@@ -39,11 +39,11 @@ body {
   flex-basis: 30%;
 }
 .store h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bolder;
 }
 .score {
-  font-size: 80px;
+  font-size: 50px;
 }
 .current-score {
   background: #c7365f;
@@ -60,11 +60,11 @@ body {
   font-size: 20px;
 }
 .current-score h5 {
-  font-size: 60px;
+  font-size: 45px;
 }
 .btn {
   position: absolute;
-  left: 45%;
+  left: 43%;
   font-size: 1.4em;
   padding: 10px;
   border-radius: 20px;
@@ -75,11 +75,11 @@ body {
 }
 .new {
   top: 5%;
-  left: 42%;
+  left: 40%;
 }
 .roll {
   top: 64%;
-  left: 43%;
+  left: 41%;
 }
 .hold {
   top: 75%;
@@ -90,7 +90,7 @@ body {
   width: 150px;
   height: auto;
   top: 30%;
-  left: 42.6%;
+  left: 41.8%;
 }
 
 /* Styles to be dynamicaly implemented by javascript */
